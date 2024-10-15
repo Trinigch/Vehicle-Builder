@@ -14,11 +14,19 @@ npm install
 
 ## Usage
 
-To generate a README.md file, run the following command:
+To start the application, run the following command:
 
-node index.js
+-npm run start
 
+if the application doesnd start check  that package.json contain the folowings commands
+       "type": "module",
+   "scripts": {
+       "build": "npx tsc",
+        "start": "npm run build && node dist/index.js",
+        }
 #  The walkthrough video thatt demonstrate how a user would invoke the application from the command line
+
+https://drive.google.com/file/d/1YNVnAdLjhykQKCiWGyiQHUeI4E0ow3La/view?usp=sharing
 
 
 ## Credits
